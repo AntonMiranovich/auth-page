@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Poppins";
+}
+
+body {
+  display: flex;
+}
+
+body .leftSection {
+  width: 710px;
+  height: 715px;
+  background: #e2f0ff;
+}
+
+body .leftSection .img {
+  background-image: url(./assets/ManImg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 524px;
+  height: 391px;
+  margin: 80px 93px 56px 93px;
+}
+
+body .leftSection h2 {
+  width: 400px;
+  color: var(--text-main, #292731);
+  text-align: center;
+  font: 600 26px Poppins;
+  margin: auto;
+  margin-bottom: 23px;
+}
+
+body .leftSection p {
+  width: 386px;
+  color: var(--text-gray, #455360);
+  text-align: center;
+  font: 400 16px Poppins;
+  margin: auto;
+}
+
+/* body .rightSection .hendImg{
+    
+} */
