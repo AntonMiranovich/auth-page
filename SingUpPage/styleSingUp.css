@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: "Poppins";
+  }
+  
+  body {
+    display: flex;
+  }
+  
+  body .leftSection {
+    width: 710px;
+    height: 715px;
+    background: #e2f0ff;
+  }
+  
+  body .leftSection .img {
+    background-image: url(../assets/ManImg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 524px;
+    height: 391px;
+    margin: 80px 93px 56px 93px;
+  }
+  
+  body .leftSection h2 {
+    width: 400px;
+    color: var(--text-main, #292731);
+    text-align: center;
+    font: 600 26px Poppins;
+    margin: auto;
+    margin-bottom: 23px;
+  }
+  
+  body .leftSection p {
+    width: 386px;
+    color: var(--text-gray, #455360);
+    text-align: center;
+    font: 400 16px Poppins;
+    margin: auto;
+  }
+  
+  body .rightSection {
+    margin: 38px 0 0 135px;
+  }
+  
+  body .rightSection .welcome .hendImg {
+    background-image: url(../assets/waving-hand.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+  }
+  
+  body .rightSection .welcome h1 {
+    width: 239px;
+    height: 45px;
+    color: var(--text-main, #292731);
+    font: 600 30px Poppins;
+    margin: 12px 0;
+  }
+  
+  body .rightSection .welcome p {
+    width: 292px;
+    height: 27px;
+    color: var(--text-main, #292731);
+    font: 400 16px Poppins;
+  }
+  
+  body .rightSection .email {
+    margin-top: 50px;
+  }
+  
+  body .rightSection .email div {
+    display: flex;
+  }
+  
+  body .rightSection .email div p {
+    color: var(--text-gray, #455360);
+    font: 500 16px Poppins;
+  }
+  
+  body .rightSection .email div .infoImg {
+    background-image: url(../assets/information.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin-left: 225px;
+    cursor: pointer;
+  }
+  
+  body .rightSection .email input {
+    display: flex;
+    width: 425px;
+    height: 40px;
+    padding: 8px 0 6px 15px;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--input-field, #ecf2f7);
+    color: var(--text-light-gray, #7b8389);
+    font: 400 16px Poppins;
+    margin-top: 10px;
+  }
+  
+  body .rightSection .password p {
+    margin-top: 30px;
+    color: var(--text-gray, #455360);
+    font: 500 16px Poppins;
+  }
+  
+  body .rightSection .password input {
+    margin-top: 10px;
+    display: flex;
+    width: 425px;
+    height: 40px;
+    padding: 8px 0 6px 15px;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--input-field, #ecf2f7);
+    color: var(--text-light-gray, #7b8389);
+    font: 400 16px Poppins;
+  }
+  
+  body .rightSection button {
+    display: flex;
+    width: 440px;
+    height: 54px;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--accent-blue, #4c70ff);
+    color: var(--white, #fff);
+    font: 500 20px Poppins;
+    margin-top: 46px;
+    cursor: pointer;
+  }
+  
+  body .rightSection .hrefFooter {
+    display: flex;
+    margin-top: 19px;
+    justify-content: center;
+  }
+  
+  body .rightSection .hrefFooter p {
+    color: var(--text-main, #292731);
+    font: 500 16px Poppins;
+    margin-right: 5px;
+  }
+  
+  body .rightSection .hrefFooter a {
+    color: #66bce8;
+    font: 500 16px Poppins;
+    text-decoration: none;
+  }
+
+  body .rightSection .rePassword p{
+    margin-top: 30px;
+    color: var(--text-gray, #455360);
+    font: 500 16px Poppins;
+  }
+
+  body .rightSection .rePassword input{
+    margin-top: 10px;
+    display: flex;
+    width: 425px;
+    height: 40px;
+    padding: 8px 0 6px 15px;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--input-field, #ecf2f7);
+    color: var(--text-light-gray, #7b8389);
+    font: 400 16px Poppins;
+  }

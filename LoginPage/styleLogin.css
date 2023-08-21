@@ -16,7 +16,7 @@ body .leftSection {
 }
 
 body .leftSection .img {
-  background-image: url(./assets/ManImg.png);
+  background-image: url(../assets/ManImg.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 524px;
@@ -42,11 +42,11 @@ body .leftSection p {
 }
 
 body .rightSection {
-  margin: 72px 0 0 135px;
+  margin: 38px 0 0 135px;
 }
 
 body .rightSection .welcome .hendImg {
-  background-image: url(./assets/waving-hand.png);
+  background-image: url(../assets/waving-hand.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 36px;
@@ -69,7 +69,7 @@ body .rightSection .welcome p {
 }
 
 body .rightSection .email {
-  margin-top: 62px;
+  margin-top: 50px;
 }
 
 body .rightSection .email div {
@@ -82,7 +82,7 @@ body .rightSection .email div p {
 }
 
 body .rightSection .email div .infoImg {
-  background-image: url(./assets/information.png);
+  background-image: url(../assets/information.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 16px;
